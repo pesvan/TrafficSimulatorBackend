@@ -1,0 +1,19 @@
+apply plugin : 'java'
+apply plugin : 'application'
+apply plugin: 'org.springframework.boot'
+
+
+mainClassName = 'trafficsimulator.server.TrafficSimulator'
+
+dependencies {
+	compile("org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE")
+	{
+    	exclude module: 'org.springframework.boot:spring-boot-starter-logging'
+    	exclude group: 'ch.qos.logback'
+	}
+		
+	compile project(':Shared')
+	compile project(':Parser')
+	compile project(':Generator')
+	compile project(':Simulator')
+}

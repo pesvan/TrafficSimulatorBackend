@@ -1,0 +1,15 @@
+apply plugin : 'java'
+
+dependencies {
+
+	compile("org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE")
+	{
+    	exclude module: 'org.springframework.boot:spring-boot-starter-logging'
+    	exclude group: 'ch.qos.logback'
+	}
+
+	compile files('lib/TraaS.jar')
+	
+	compile project(':Shared')
+
+}

@@ -1,0 +1,8 @@
+bin/
+/.gradle/
+/build/
+/2-legs-180.c10
+/2-legs-180.xml
+/2-legs-90.c10
+/2-legs-90.xml
+/4-legs-90.xml
