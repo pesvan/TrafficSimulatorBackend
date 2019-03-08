@@ -2,9 +2,6 @@
 /.settings/
 /.project
 /gradle
-gradlew
-gradlew.bat
-Brazdil_(Absik)_super_ITS_Eclipse_formatter.xml
 Generator/.classpath
 Generator/.externalToolBuilders/
 Generator/.project
@@ -26,13 +23,6 @@ TrafficSimulatorService/.classpath
 TrafficSimulatorService/.externalToolBuilders/
 TrafficSimulatorService/.project
 TrafficSimulatorService/.settings/
-TrafficSimulatorService/hlc_base.xml
-TrafficSimulatorService/hlc_base_400.xml
-TrafficSimulatorService/hlc_base_73.xml
-TrafficSimulatorService/hlc_base_85.xml
-TrafficSimulatorService/hlc_base_adv.xml
-TrafficSimulatorService/hlc_base_asd.xml
-TrafficSimulatorService/hlc_base_sXadv.xml
 TrafficSimulatorService/lib/shared.jar
 /build/
 /gradle.properties
